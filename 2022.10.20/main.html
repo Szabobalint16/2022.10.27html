@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Karakter</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Mozi jegy vásárlás</h1>
+    </header>
+
+    <main>
+        <h2>Jegy vásárlás</h2>
+        <form action="fizetés.html" target="_blank">
+
+            <label for="mozihelyszin">Mozi helyszin</label>
+            <select id="mozihelyszin" name="mozihelyszin">
+                <option value="Dunaplaza">Duna plaza</option>
+                <option value="Westend">Westend plaza</option>
+                <option value="mammut">Mammut plaza</option>
+                <option value="Arena">Aréna plaza</option>
+                <option value="sugar">Sugár mozi</option>
+            </select>
+<br>           
+                <label for="filmcim">Film cím</label>
+            <select id="filmcim" name="filmcim">
+                <option value="filmcim" disabled selected>Filmcím</option>
+                <optgroup label="Sci-fi"></optgroup>
+                    <option value="vissza_a_jovobe">Vissza a jövőbe</option>
+                    <option value="függetlenség_napja">Függetlenség napja</option>
+                    <option value="star_terk">Star terk</option>
+                    <option value="star_wars">Star wars</option>
+                <optgroup label="Vígjáték"></optgroup>
+                    <option value="nagyfijuk">Nagyfijuk</option>
+                    <option value="furcsa_pár">Furcsa pár</option>
+                    <option value="szuperzsaru">Szuperzsaru</option>
+                    <option value="horrora_akadva">Horrora akadva</option>
+                <optgroup label="Horror"></optgroup>
+                    <option value="annabell">Annabell</option>
+                    <option value="fürész">Fürész</option>
+                    <option value="szabadulószoba">Szabadulószoba</option>
+                    <option value="szarvak">Szarvak</option>
+                <optgroup label="Fantasy"></optgroup>
+                    <option value="black_adam">Black Adam</option>
+                    <option value="bosszúállók">Bosszúállók</option>
+                    <option value="aladdin">Aladdin</option>
+                    <option value="hobbit">Hobbit</option>
+                <optgroup label="Fantasy"></optgroup>
+                    <option value="black_adam">Black Adam</option>
+                    <option value="bosszúállók">Bosszúállók</option>
+                    <option value="aladdin">Aladdin</option>
+                    <option value="hobbit">Hobbit</option>
+                <optgroup label="Akció"></optgroup>
+                    <option value="Die_hard">Die hard</option>
+                    <option value="hős_hatos">Hős 6-os</option>
+                    <option value="narnia">narnia</option>
+                    <option value="dead_pool">Dead pool</option>
+                <optgroup label="Dráma"></optgroup>
+                    <option value="Amelia">Amelia</option>
+                    <option value="Bambi">Bambi</option>
+                    <option value="a rettenthetetlen">A rettenthetetlen</option>
+                    <option value="Felhők">Felhők</option>
+            </select>            
+<br>
+            <label for="filmidopont">A filmidopontja</label>
+            <input type="date" name="filmidopont" id="filmidopont" value="2022.10.20">
+<br>
+            <label for="jegymennyiség">Mennyi jegyetet  vásárol</label>
+            <input type="number" name="jegymennyiség" id="jegymennyiség" placeholder="1" max="10">db
+<br>
+            
+
+
+            <input type="submit" value="VÁSÁRLÁS"/>
+        </form>
+    </main>
+
+    <footer>
+        &#10060;  !!! A JEGY NEM VÁLTHATÓ VISSZA !!! &#10060;
+    </footer>
+
+
+
+</body>
+</html>
